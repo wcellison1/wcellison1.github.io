@@ -1,0 +1,374 @@
+body {
+	margin: 0;
+	padding: 0;
+	margin-top: -40px;
+}
+
+h1 {
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 50px;
+}
+h2 {
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 30px;
+}
+p {
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 20px;
+}
+::selection {
+	background: #ffc600;
+}
+
+
+/* Header */
+header {
+	margin: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #333333;
+}
+
+
+.backTop {
+	width: 75px;
+	height: 25px;
+	border-radius: 3px 0px 0px 3px;
+	padding: 5px 0px 0px 10px;
+	float: right;
+	position: fixed;
+	bottom: 100px;
+	right: 0px;
+	background-color: orange;
+	z-index: 1;
+}
+
+.backTop-btn a {
+	text-decoration: none;
+	color: #333333;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 14px;
+}
+
+#mainNav {
+	float: right;
+	display: inline-block;
+	padding: 35px 30px 30px 30px;
+	text-align: center;
+	position: relative;
+}
+
+
+#mainNav a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Baloo Bhai', cursive;
+	font-weight: lighter;
+	font-size: 20px;
+	text-transform: lowercase;
+	display: inline-block;
+	width: 100px;
+	border-radius: 3px;
+	transition: all 0.3s ease;
+}
+
+#mainNav a:hover {
+	background-color: #ffc600;
+	color: #333333;
+}
+/* Shop */
+#shop {
+	width: 100%;
+	height: 650px;
+	position: relative;
+}
+
+.mtshirts {
+	background: url("img/shopify.jpg") center top no-repeat;
+	width: 33.33%;
+	height: 630px;
+	float: left;
+	text-align: center;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 40px;
+	position: relative;
+}
+
+
+.wtshirts {
+	background: url("img/hhwomens.jpg") center center no-repeat;
+	width: 33.33%;
+	height: 630px;
+	float: left;
+	text-align: center;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 40px;
+	position: relative;
+}
+
+.superradstuff {
+	background: url("img/silipint.jpg") center center no-repeat;
+	width: 33.33%;
+	height: 630px;
+	float: left;
+	text-align: center;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 40px;
+	position: relative;
+}
+
+.merchBtn {
+	border-radius: 3px;
+	width: 150px;
+	border: 3px solid #ffffff;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	color: #333333;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 20px 10px 20px;
+	background-color: rgba(255, 255, 255, 0.4);
+	transition: all 0.3s ease;
+	position: relative;
+	top: 80%
+}
+
+.merchBtn:hover {
+	background-color: rgba(255, 198, 0, 1);
+	border: 3px solid #ffc600;
+}
+#new {
+	clear: both;
+	width: 100%;
+	height: 400px;
+	padding: 0px 0px 0px 0px;
+	position: relative;
+	background-color: white;
+	
+}
+.h {
+	width: 100%;
+	height: 0px;
+	background-color: white;
+	text-align: center;
+}
+
+.s {
+	background: url("img/save_winos.jpg") center center no-repeat;
+	width: 25%;
+	height: 500px;
+	float: left;
+	text-align: center;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 10px;
+	
+}
+
+
+.n {
+	background: url("img/guns_and_rose.jpg") center center no-repeat;
+	width: 25%;
+	height: 500px;
+	float: left;
+	text-align: center;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 10px;
+
+}
+
+.c {
+	background: url("img/HELP-ME_WOMENS.jpg") center center no-repeat;
+	width: 25%;
+	height: 500px;
+	float: left;
+	text-align: center;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 10px;
+	
+}
+.e {
+	background: url("img/womens_select_large.jpg") center center no-repeat;
+	width: 25%;
+	height: 500px;
+	float: left;
+	text-align: center;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 10px;
+	
+}
+
+/*.o {
+	background: url("img/SelectsW_1_large.jpg") center center no-repeat;
+	width: 20%;
+	height: 500px;
+	float: left;
+	text-align: center;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 10px;
+	
+}
+/* new arrials */
+/*#new {
+	width: 100%;
+	background-color: #333333;
+	position: relative;
+}
+.newarrivals {
+	background-color: pink;
+	height: 500px;
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-family: 'Baloo Bhai', cursive;
+	position: relative
+	
+}
+/* sales */
+#sale {
+	clear: both;
+	width: 100%;
+	height: 460px;
+	padding: 30px 0px 30px 0px;
+	position: relative;
+	background-color: white;
+}
+
+.sale-text {
+	width: 75%;
+	height: 400px;
+	margin: 0px auto 0px auto;
+	padding: 30px;
+	background: url("img/comfy.jpg");
+	border-radius: 3px;
+	position: relative;
+	text-align: left;
+	font-family: 'Baloo Bhai', cursive;
+	color: orange;
+}
+#contactsocialnews {
+	clear: both;
+	width: 100%;
+	height: 300px;
+	padding: 0px 0px 0px 0px;
+	position: relative;
+	background-color: white;
+}
+.social {
+	background-color: white;
+	width: 32%;
+	height: 500px;
+	float: left;
+	text-align: center;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 40px;
+	border-right: groove;
+	
+	
+}
+
+
+.newsletter {
+	background-color: white;
+	width: 33.5%;
+	height: 500px;
+	float: left;
+	text-align: center;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 10px;
+	border-right: groove;
+
+
+}
+
+.contact {
+	background-color: white;
+	width: 33.5%;
+	height: 500px;
+	float: left;
+	text-align: center;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 10px;
+	
+}
+
+	
+/* Footer */
+footer {
+	width: 100%;
+	height: 240px;
+	background: url("img/TOO-LIT.jpg");
+	position: relative;
+	padding:;
+	color: red;
+	text-align: center;
+}
+
+.copyRight {
+	width: 100%;
+	color: white;
+	float: left;
+	font-size: 10px;
+	padding: 0px 0px 0px 0px;
+	position: relative;
+	top: 23%;
+	background-color: #333333;
+}
+
+.copyRight a {
+	text-decoration: none;
+	color: orange;
+}
+
+.copyRight a:hover {
+	color: white;
+}
+
+/*.soc-buttons {
+	height: 60px;
+	padding: 0px 20px 0px 20px;
+	position: relative;
+	float: left;
+}
+
+span.icon a:link {
+	display: block;
+	text-indent: -9999px;
+}
+
+span.insta-button a:link {
+	width: 30px;
+	height: 30px;
+	background: url("img/instagram_icon.png") no-repeat;
+	transition: all 0.2s ease;
+	float:left;
+	padding: 0px 5px 0px 5px;
+}
+
+span.insta-button a:hover {
+	background-position: 0px -30px;
+	overflow: hidden;
+}
+
+span.twitter-button a:link {
+	width: 30px;
+	height: 30px;
+	background: url("img/twitter_icon.png")no-repeat;
+	transition: all 0.2s ease;
+	float: left;
+	padding: 0px 5px 0px 5px;
+}
+
+span.twitter-button a:hover {
+	background-position: 0px -30px;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
